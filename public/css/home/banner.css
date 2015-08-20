@@ -1,0 +1,170 @@
+#container{
+  	width: 100%;
+  	/*margin-top: 0px;
+  	float: left;*/
+}
+
+.carousel-inner .item{
+    max-height : 500px;
+}
+
+.carousel-inner .item img{
+    width: 100%;
+}
+
+#banner h3{
+	color:#fff;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+	.topWord{
+		font-size:40px; 
+		line-height:60px; 
+		top:170px; 
+		-webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+	}
+	.midWord{
+    	font-size:20px; 
+    	line-height:32px; 
+    	-webkit-font-smoothing: antialiased !important; 
+    	font-family: 'Open Sans', sans-serif; 
+    	top:250px;
+  	}
+  	.botWord{
+  		font-size:12px; 
+  		line-height:20px; 
+  		-webkit-font-smoothing: antialiased !important; 
+  		font-family: 'Open Sans', sans-serif; 
+  		top:360px;
+  	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 991px) and (max-width: 1200px) { 
+  .topWord{
+    font-size:40px; line-height:60px; top:180px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+  }
+  .midWord{
+    font-size:18px; line-height:26px; top:260px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+  }
+  .botWord{
+    font-size:10px; line-height:18px; top:350px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 801px) and (max-width: 990px) { 
+  .topWord{
+    font-size:36px; line-height:42px; top:140px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+  }
+  .midWord{
+    font-size:18px; line-height:22px; top:210px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+  }
+  .botWord{
+    font-size:10px; line-height:20px; top:300px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 651px) and (max-width: 800px) { 
+  .topWord{
+    font-size:36px; line-height:42px; top:110px;
+    -webkit-font-smoothing: antialiased !important; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+  }
+  .midWord{
+    font-size:18px; line-height:22px; top:170px;
+    -webkit-font-smoothing: antialiased !important; 
+    font-family: 'Open Sans', sans-serif; 
+  }
+  .botWord{
+    font-size:10px; line-height:20px; top:240px;
+    -webkit-font-smoothing: antialiased !important; 
+    font-family: 'Open Sans', sans-serif; 
+  }
+}
+
+/* Landscape phones and down */
+@media (min-width: 461px) and (max-width: 650px) { 
+  .topWord{
+    font-size:30px; line-height:36px; top:90px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+  }
+  .midWord{
+    font-size:10px; line-height:16px; top:140px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+  }
+  .botWord{
+    font-size:6px; line-height:15px; top:190px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 460px) { 
+  .topWord{
+    font-size:24px; line-height:26px; top:60px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+  }
+  .midWord{
+  	display: none;
+    font-size:8px; line-height:14px; top:70px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+  }
+  .botWord{
+    font-size:2px; line-height:12px; top:135px;
+    -webkit-font-smoothing: antialiased !important; 
+		font-family: 'Open Sans', sans-serif; 
+		text-transform: uppercase;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 300px) { 
+  .topWord{
+    font-size:24px; line-height:26px; top:60px;
+    -webkit-font-smoothing: antialiased !important; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+  }
+  .midWord{
+    display: none;
+    font-size:8px; line-height:14px; top:70px;
+    -webkit-font-smoothing: antialiased !important; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+  }
+  .botWord{
+    display: none;
+    font-size:2px; line-height:12px; top:135px;
+    -webkit-font-smoothing: antialiased !important; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase;
+  }
+}

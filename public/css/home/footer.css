@@ -1,0 +1,14 @@
+.navbar{
+  width: 100%;
+  display: table;
+}
+
+.navbar .navbar-inner{
+  vertical-align:middle;
+  display: table-cell;
+}
+
+.navbar .navbar-inner p{
+  float: left;
+  margin-left: 30px;
+}
